@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "jsx": "preserve",
+        "jsxImportSource": "solid-js",
+        "target": "ES2022",
+        "useDefineForClassFields": true,
+        "lib": ["DOM", "DOM.Iterable", "ESNext"],
+        "types": ["vite/client"],
+        "allowJs": false,
+        "skipLibCheck": true,
+        "noImplicitAny": false,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "allowImportingTsExtensions": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noFallthroughCasesInSwitch": true
+    },
+    "include": ["src", "vite.config.ts"]
+}

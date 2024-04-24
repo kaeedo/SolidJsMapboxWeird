@@ -1,0 +1,29 @@
+{
+  "name": "solid-map-cluster",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "dev": "vite --mode localhost"
+  },
+  "dependencies": {
+    "@mbarzda/solid-i18next": "1.4.1",
+    "geojson": "0.5.0",
+    "mapbox-gl": "3.2.0",
+    "solid-js": "1.8.16",
+    "solid-map-gl": "1.11.2"
+  },
+  "devDependencies": {
+    "@types/geojson": "7946.0.14",
+    "@types/mapbox-gl": "3.1.0",
+    "@types/node": "20.11.25",
+    "typescript": "5.4.2",
+    "vite": "5.0.13",
+    "vite-plugin-css-injected-by-js": "3.5.0",
+    "vite-plugin-solid": "2.10.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
